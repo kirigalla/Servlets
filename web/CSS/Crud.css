@@ -1,0 +1,79 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #00b4d8
+}
+
+.menu{
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #286785;
+    padding: 0px;
+    box-shadow: 4px 0px 0px 0px rgba(26, 85, 145, 0.04);
+}
+
+.containerRegistro{
+  background-color: #90e0ef;
+  border-color:#90e0ef;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 16px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 25px;
+  padding: 16px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.containerConsulta{
+  background-color: #90e0ef;
+  border-color:#90e0ef;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 16px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 25px;
+  padding: 16px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.containerEliminar{
+  background-color: #90e0ef;
+  border-color:#90e0ef;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 16px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 25px;
+  padding: 16px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.Registro {
+  display: block;
+  margin-top: 8px;
+  color: white;
+  background-color: rgb(71, 45, 219);
+  border-width: 0;
+  border-radius: 16px;
+  padding: 8px;
+  width: 125px;
+  font-size: 16px;
+  font-weight: 600;
+  align-self: center;
+  justify-self: center;
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+h1, h2{
+    margin: 0px;
+    padding: 16px;
+    height: inherit;
+    width: max-content;
+    color: white
+}

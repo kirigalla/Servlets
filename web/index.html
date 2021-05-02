@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro de Usuarios</title>
+        
+        <script src="JS/Validar.js"></script>
+        <link rel="stylesheet" type="text/css" href="CSS/Crud.css">
+        
+    </head>
+    
+    
+    <body>
+        <nav class="menu">
+            <h1> SERVLETS </h1>
+            <h2> Rivas Gutierrez Leonardo </h2>
+        </nav>
+        
+        <br>
+        
+        <div class="container" >
+            
+            <div class="containerRegistro">
+                
+                <form name="formulario" method="post" 
+                  action="Registro">
+                <label>Nombre:</label>
+                <input type="text" name="nombre" >
+                <br>
+                <label>Apellido Paterno:</label>
+                <input type="text" name="appat" >
+                <br>
+                <label>Apellido Materno:</label>
+                <input type="text" name="appmat" >
+                <br>
+                <label>Edad:</label>
+                <input type="number" name="edad" min="01" max="99" size="2" >
+                <br>
+                <label>Correo:</label>
+                <input type="email" name="correo" >
+                <br>
+                <input type="submit" value="Registro de Usuarios" >
+                <input type="reset" value="Borrar Registro" >
+            </form>
+            </div>
+            
+            <br>
+            
+            <div class="containerConsulta" >
+                <br>
+                <form method="get" name="consultarregistro" action="Consultar">
+                    <input type="submit" value="Consultar Tabla de Usuarios" >
+                </form>
+            </div>
+            
+            <br>
+            
+            <div class="containerEliminar">
+                <br>
+                
+                <form method="post" name="formularioeliminar" action="Eliminar">
+                    <label>ID del Usuario a Eliminar</label>
+                    <input type="number" name="ideliminar" >
+                    <br>
+                    <input type="submit" value="Eliminar Usuario" >
+                </form>
+                
+            </div>
+            
+            <br>
+         
+        </div>
+    </body>
+</html>
